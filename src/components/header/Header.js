@@ -14,7 +14,7 @@ const Header = () => {
 		<header className="header">
 			<div className="header__container">
 				<div className="navbar__logo">
-					<h2>Ọlánrewájú</h2>
+					<h2 className="navbar__logo-text">Ọlánrewájú</h2>
 				</div>
 				<ul className={isMobile ? "navbar__list mobile" : "navbar__list"}>
 					{["home", "about", "skills", "works", "contact"].map((item) => (
