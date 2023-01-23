@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import "./Hero.scss";
-import arrow from "../../assets/icons/arrow_back-24px.svg";
+import arrow from "../../assets/icons/iconmonstr-arrow-right-thin.svg";
 
 const Hero = () => {
 	const [text] = useTypewriter({
@@ -17,7 +17,7 @@ const Hero = () => {
 		deleteSpeed: 50
 	});
 	return (
-		<section className="hero">
+		<section className="hero" id="home">
 			<div className="hero__container">
 				<div className="hero__content">
 					<p className="hero__content--intro">Hi, my name is</p>
@@ -29,7 +29,7 @@ const Hero = () => {
 						</span>
 					</h2>
 					<a className="connect-btn" href="#">
-						Let's connect
+						<p>Let's connect -&gt;</p>
 					</a>
 				</div>
 			</div>

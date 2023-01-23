@@ -19,7 +19,7 @@ const Skills = () => {
 		<section className="skills" id="skills">
 			<div className="skills__container">
 				<div className="skills__header">
-					<h2>My skills</h2>
+					<h2 className="skills__header--text">My Skills</h2>
 				</div>
 				<div className="skills__content">
 					<div className="skill__item bouncer wave-div">

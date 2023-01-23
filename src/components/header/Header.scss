@@ -2,6 +2,109 @@
 @use "../../styles/partials/breakpoints" as breakpoint;
 @use "../../styles/partials/mixins" as *;
 
+.header {
+	background-color: $primary-color;
+	// opacity: 0.5;
+	width: 100%;
+	// text-align: center;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease-in-out;
+
+	&__container {
+		max-width: 80rem;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem 4rem;
+	}
+}
+
+.navbar {
+	&__logo {
+		color: $light-navyblue-color;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__list {
+		flex: 0.5;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// &-mobile {
+		// 	display: flex;
+		// }
+
+		&-item {
+			margin: 0 1rem;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			cursor: pointer;
+
+			&--active {
+				text-decoration: none;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding-bottom: 0.25;
+				color: $navyblue-color;
+				border-bottom: 3px solid $white-color;
+			}
+
+			div {
+				width: 0.3125rem;
+				height: 0.3125rem;
+				background: transparent;
+				border-radius: 50%;
+
+				margin-bottom: 5px;
+			}
+
+			&:hover {
+				div {
+					background: $navyblue-color;
+				}
+			}
+		}
+	}
+	&__link {
+		text-decoration: none;
+		// flex-direction: column;
+		color: $gray-color;
+		font-weight: 500;
+
+		transition: all 0.3s ease-in-out;
+
+		&--active {
+			text-decoration: none;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-bottom: 0.25;
+			color: $navyblue-color;
+			border-bottom: 3px solid $white-color;
+		}
+
+		&:hover {
+			color: $lightest-navyblue-color;
+		}
+	}
+
+	&__mobile-menu {
+		display: none;
+	}
+}
+
 /*  Mobile */
 @include breakpoint.small {
 	.header {
@@ -135,6 +238,7 @@
 		position: fixed;
 		z-index: 99999;
 		top: 0;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 		transition: all 0.3s ease-in-out;
 
 		&__container {

@@ -5,9 +5,7 @@
 .skills {
 	flex: 1;
 	width: 100%;
-
 	// height: 100vh;
-
 	// display: flex;
 	// justify-content: center;
 
@@ -20,36 +18,31 @@
 		justify-content: center;
 		height: 100%;
 		width: 100%;
-		padding: 3rem 0;
+		// padding: 3rem 0;
 	}
 
 	&__content {
 		flex: 1;
+		width: 100%;
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 		margin-top: 3rem;
-		// flex-wrap: wrap;
-		gap: 5%;
+		flex-wrap: wrap;
+		gap: 12%;
 	}
 
-	// &__profile-image {
-	// 	background-color: gray;
-	// 	background: url("../../assets/images/bg.jpg");
-	// 	background-size: cover;
-	// 	background-repeat: repeat;
-	// 	background-position: center;
-	// 	height: 20rem;
-	// 	width: 20rem;
-	// 	border-radius: 50%;
-	// 	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-	// }
+	&__header--text {
+		color: $light-navyblue-color;
+		@include desktopPageHeader;
+		margin: 4rem 0 2rem;
+	}
 
 	.skill {
 		&__item {
 			flex-direction: column;
 			text-align: center;
-
+			margin: 2rem 0 4rem;
 			transition: all 0.3s ease-in-out;
 
 			&-icon {
@@ -70,8 +63,8 @@
 
 			&-name {
 				color: $navyblue-color;
+				@include desktopBodyLarge;
 				margin-top: 1rem;
-				font-size: 1rem;
 				font-weight: 500;
 			}
 
@@ -166,7 +159,7 @@
 		transform: translateY(0);
 	}
 	50% {
-		transform: translateY(-30px);
+		transform: translateY(-10px);
 	}
 	100% {
 		transform: translateY(0);

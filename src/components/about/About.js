@@ -7,11 +7,11 @@ const About = () => {
 		<section className="about" id="about">
 			<div className="about__container">
 				<div className="about__header">
-					<h1>About me</h1>
+					<h1 className="about__header--text">About Me</h1>
 				</div>
 				<div className="about__content">
 					<div className="about__right-side">
-						<p>
+						<p className="paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
 							quibusdam accusantium nihil doloribus vel suscipit modi similique
 							accusamus sit eveniet repellat fuga at assumenda quae facilis,
@@ -20,7 +20,7 @@ const About = () => {
 							exercitationem nulla ipsam praesentium dicta corrupti dolorum?
 						</p>
 						<br />
-						<p>
+						<p className="paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
 							quibusdam accusantium nihil doloribus vel suscipit modi similique
 							accusamus sit eveniet repellat fuga at assumenda quae facilis,
