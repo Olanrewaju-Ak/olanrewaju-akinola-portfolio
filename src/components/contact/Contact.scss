@@ -1,0 +1,89 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/breakpoints" as breakpoint;
+@use "../../styles/partials/mixins" as *;
+
+.contact {
+	flex: 1;
+	width: 100%;
+	margin: 4rem 0;
+
+	&__container {
+		max-width: 80rem;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	&__content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 5%;
+	}
+
+	&__message {
+		@include desktopBodyLarge;
+		text-align: center;
+		margin: 2rem 7rem 0;
+		color: $light-navyblue-color;
+		font-weight: 500;
+	}
+
+	&__header--text {
+		color: $light-navyblue-color;
+		@include desktopPageHeader;
+		margin: 0;
+	}
+}
+
+.connect {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem auto;
+	gap: 7%;
+	width: 100%;
+	text-align: center;
+
+	&__icon {
+		width: 2.5rem;
+		height: 2.5rem;
+		filter: invert(9%) sepia(51%) saturate(1573%) hue-rotate(193deg) brightness(100%)
+			contrast(95%);
+	}
+
+	&-btn {
+		padding: 0.75rem;
+		color: $light-navyblue-color;
+		font-weight: 500;
+		border: 2px solid $navyblue-color;
+		border-radius: 0.5rem;
+		font-family: "atlasgrotesk";
+		display: inline-block;
+		margin: 0.7rem 0 0;
+
+		&:hover {
+			box-shadow: inset 200px 0 0 0 $navyblue-color;
+			color: #fff;
+			transition: all 0.3s ease-in-out;
+		}
+
+		&--text {
+			@include desktopLabelsLinksButtons;
+		}
+	}
+
+	&__text {
+		@include desktopBodyLarge;
+		margin-top: 0.7rem;
+		color: $light-navyblue-color;
+		font-weight: 500;
+	}
+}
