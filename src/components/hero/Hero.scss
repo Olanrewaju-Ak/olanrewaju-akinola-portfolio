@@ -29,6 +29,7 @@
 		&--intro {
 			@include desktopBodyLarge;
 			color: $navyblue-color;
+			font-weight: 500;
 		}
 
 		&--name {
@@ -44,7 +45,7 @@
 		}
 		&--typewritten {
 			font-size: 4rem;
-			color: $lightest-navyblue-color;
+			color: $gray-color;
 		}
 	}
 
@@ -55,7 +56,7 @@
 			padding: 0.7rem 2rem 0.7rem 2rem;
 			color: $light-navyblue-color;
 			font-weight: 500;
-			border: 2px solid $navyblue-color;
+			border: 1px solid $navyblue-color;
 			border-radius: 0.5rem;
 			font-family: "atlasgrotesk";
 			display: inline-block;

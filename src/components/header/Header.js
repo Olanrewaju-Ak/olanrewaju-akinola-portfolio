@@ -10,6 +10,10 @@ const Header = () => {
 
 	const [isMobile, setIsMobile] = useState(true);
 
+	const handleClick = (e) => {
+		setIsMobile(!isMobile);
+	};
+
 	return (
 		<header className="header">
 			<div className="header__container">
@@ -18,7 +22,10 @@ const Header = () => {
 				</div>
 				<ul className={isMobile ? "navbar__list mobile" : "navbar__list"}>
 					{["home", "about", "skills", "works", "contact"].map((item) => (
-						<li className="navbar__list-item" key={`link-${item}`}>
+						<li
+							className={isMobile ? "mobile__list-item" : "navbar__list-item"}
+							key={`link-${item}`}
+						>
 							<div />
 							<a
 								className={
@@ -39,7 +46,9 @@ const Header = () => {
 							target="_blank"
 							rel="noreferrer"
 							className={
-								activeLink === "resume" ? "navbar__link--active" : "navbar__link"
+								activeLink === "resume"
+									? "navbar__link--active"
+									: "navbar__link-btn"
 							}
 						>
 							Resume
@@ -48,8 +57,12 @@ const Header = () => {
 				</ul>
 
 				<div className="navbar__mobile-menu">
-					<button className="navbar__mobile-menu--icon">
-						<img src={hamburger} alt="mobile-menu" />
+					<button className="navbar__mobile-menu--btn" onClick={handleClick}>
+						<img
+							src={isMobile ? X : hamburger}
+							alt="mobile-menu"
+							className="navbar__mobile-menu--icon"
+						/>
 					</button>
 				</div>
 			</div>

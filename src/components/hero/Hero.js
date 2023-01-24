@@ -7,10 +7,10 @@ import arrow from "../../assets/icons/iconmonstr-arrow-right-thin.svg";
 const Hero = () => {
 	const [text] = useTypewriter({
 		words: [
-			"a Web Developer",
-			"a Full-stack Developer",
-			"a Front-end Developer",
-			"an Architect"
+			"a Web Developer .",
+			"a Full-stack Developer .",
+			"a Front-end Developer .",
+			"an Architect ."
 		],
 		loop: {},
 		typeSpeed: 120,
@@ -23,8 +23,8 @@ const Hero = () => {
 					<p className="hero__content--intro">Hi, my name is</p>
 					<h1 className="hero__content--name">Olanrewaju Akinola</h1>
 					<h2 className="hero__content--caption">
-						I am <span className="hero__content--typewritten">{text}</span>.
-						<span>
+						I am <span className="hero__content--typewritten">{text}</span>
+						<span className="hero__content--typewritten">
 							<Cursor cursorStyle="<" />
 						</span>
 					</h2>
