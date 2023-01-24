@@ -14,13 +14,23 @@ const Footer = () => {
 					<p>&#169; Olanrewaju Akinola</p>
 				</div>
 				<div className="footer__socials">
-					<a href="#" className="footer__socials-link">
+					<a href="mailto:akinola_lanrewaju@yahoo.com" className="footer__socials-link">
 						<img src={email} alt="mail" className="footer__socials-img" />
 					</a>
-					<a href="#" className="footer__socials-link">
+					<a
+						href="https://www.linkedin.com/in/olanrewaju-akinola/"
+						target="_blank"
+						rel="noreferrer"
+						className="footer__socials-link"
+					>
 						<img src={linkedin} alt="linkedin" className="footer__socials-img" />
 					</a>
-					<a href="#" className="footer__socials-link">
+					<a
+						href="https://github.com/Olanrewaju-Ak"
+						target="_blank"
+						rel="noreferrer"
+						className="footer__socials-link"
+					>
 						<img src={github} alt="github" className="footer__socials-img" />
 					</a>
 				</div>

@@ -6,7 +6,7 @@ import pr from "../../assets/images/pr.jpg";
 
 const Works = () => {
 	return (
-		<section className="works">
+		<section className="works" id="works">
 			<div className="works__container">
 				<div className="works__header">
 					<h2 className="works__header--text">Some Projects I've Built</h2>

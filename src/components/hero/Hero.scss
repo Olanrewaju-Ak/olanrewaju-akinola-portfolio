@@ -53,14 +53,12 @@
 			width: 12.5rem;
 			// height: 2.5rem;
 			padding: 0.7rem 2rem 0.7rem 2rem;
-			color: $navyblue-color;
+			color: $light-navyblue-color;
 			font-weight: 500;
 			border: 2px solid $navyblue-color;
 			border-radius: 0.5rem;
 			font-family: "atlasgrotesk";
-			align-items: center;
-			display: flex;
-			align-items: center;
+			display: inline-block;
 
 			&:hover {
 				box-shadow: inset 200px 0 0 0 $navyblue-color;

@@ -1,6 +1,6 @@
 import "./App.scss";
 
-import { About, Footer, Hero, Header, Skills, Works } from "./components";
+import { About, Footer, Hero, Header, Skills, Works, Contact } from "./components";
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 			<About />
 			<Skills />
 			<Works />
-
+			<Contact />
 			<Footer />
 		</div>
 	);

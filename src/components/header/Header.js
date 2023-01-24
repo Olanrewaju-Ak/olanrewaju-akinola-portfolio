@@ -35,7 +35,7 @@ const Header = () => {
 					<li className="navbar__list-item">
 						<div />
 						<a
-							href="https://www.google.com/"
+							href="https://drive.google.com/file/d/1jxpM-3BR1opjWk1bOE_qjD-xvGyFRvuK/view?usp=share_link"
 							target="_blank"
 							rel="noreferrer"
 							className={
