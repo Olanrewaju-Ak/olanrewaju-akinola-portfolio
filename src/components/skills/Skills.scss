@@ -5,10 +5,6 @@
 .skills {
 	flex: 1;
 	width: 100%;
-	margin: 4rem 0;
-	// height: 100vh;
-	// display: flex;
-	// justify-content: center;
 
 	&__container {
 		max-width: 80rem;
@@ -19,7 +15,6 @@
 		justify-content: center;
 		height: 100%;
 		width: 100%;
-		// padding: 3rem 0;
 	}
 
 	&__content {
@@ -164,5 +159,228 @@
 	}
 	100% {
 		transform: translateY(0);
+	}
+}
+
+/*  MOBILE  */
+@include breakpoint.small {
+	.skills {
+		flex: 1;
+		width: 100%;
+		margin: 0;
+		// height: 100vh;
+		// display: flex;
+		// justify-content: center;
+
+		&__container {
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			padding: 2rem 2rem 0;
+		}
+
+		&__content {
+			flex: 1;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 2rem;
+			flex-wrap: wrap;
+			gap: 28%;
+		}
+
+		&__header--text {
+			color: $light-navyblue-color;
+			@include desktopPageHeader;
+			margin: 0;
+		}
+
+		.skill {
+			&__item {
+				flex-direction: column;
+				text-align: center;
+				margin: 0rem 0 2rem;
+				transition: all 0.3s ease-in-out;
+
+				&-icon {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 5rem;
+					height: 5rem;
+					background-color: $primary-color;
+					border-radius: 50%;
+					box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+					&--image {
+						height: 70%;
+						width: 70%;
+					}
+				}
+
+				&-name {
+					color: $navyblue-color;
+					@include desktopBodyLarge;
+					margin-top: 1rem;
+					font-weight: 500;
+				}
+
+				&:hover {
+					transform: scale(1.2);
+					box-shadow: 0 0 25px #fef4f5;
+				}
+			}
+		}
+	}
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+	.skills {
+		flex: 1;
+		width: 100%;
+
+		&__container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			padding: 3rem 3rem 0;
+		}
+
+		&__content {
+			flex: 1;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 2rem;
+			flex-wrap: wrap;
+			gap: 12%;
+		}
+
+		&__header--text {
+			color: $light-navyblue-color;
+			@include desktopPageHeader;
+			margin: 0;
+		}
+
+		.skill {
+			&__item {
+				flex-direction: column;
+				text-align: center;
+				margin: 0rem 0 4rem;
+				transition: all 0.3s ease-in-out;
+
+				&-icon {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 5rem;
+					height: 5rem;
+					background-color: $primary-color;
+					border-radius: 50%;
+					box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+					&--image {
+						height: 70%;
+						width: 70%;
+					}
+				}
+
+				&-name {
+					color: $navyblue-color;
+					@include desktopBodyLarge;
+					margin-top: 1rem;
+					font-weight: 500;
+				}
+
+				&:hover {
+					transform: scale(1.2);
+					box-shadow: 0 0 25px #fef4f5;
+				}
+			}
+		}
+	}
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+	.skills {
+		flex: 1;
+		width: 100%;
+
+		&__container {
+			max-width: 80rem;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			padding: 4rem;
+		}
+
+		&__content {
+			flex: 1;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 2rem;
+			flex-wrap: wrap;
+			gap: 12%;
+		}
+
+		&__header--text {
+			color: $light-navyblue-color;
+			@include desktopPageHeader;
+			margin: 0 0 2rem;
+		}
+
+		.skill {
+			&__item {
+				flex-direction: column;
+				text-align: center;
+				margin: 0rem 0 4rem;
+				transition: all 0.3s ease-in-out;
+
+				&-icon {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 5rem;
+					height: 5rem;
+					background-color: $primary-color;
+					border-radius: 50%;
+					box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+					&--image {
+						height: 70%;
+						width: 70%;
+					}
+				}
+
+				&-name {
+					color: $navyblue-color;
+					@include desktopBodyLarge;
+					margin-top: 1rem;
+					font-weight: 500;
+				}
+
+				&:hover {
+					transform: scale(1.2);
+					box-shadow: 0 0 25px #fef4f5;
+				}
+			}
+		}
 	}
 }

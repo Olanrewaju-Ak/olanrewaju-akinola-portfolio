@@ -11,7 +11,7 @@ const Footer = () => {
 		<section className="footer">
 			<div className="footer__container">
 				<div className="footer__note">
-					<p>&#169; Olanrewaju Akinola</p>
+					<p>&#169; Olanrewaju Akinola 2023</p>
 				</div>
 				<div className="footer__socials">
 					<a href="mailto:akinola_lanrewaju@yahoo.com" className="footer__socials-link">

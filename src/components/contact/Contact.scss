@@ -5,7 +5,7 @@
 .contact {
 	flex: 1;
 	width: 100%;
-	margin: 4rem 0;
+	// margin: 4rem 0;
 
 	&__container {
 		max-width: 80rem;
@@ -24,15 +24,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
 		gap: 5%;
-	}
-
-	&__message {
-		@include desktopBodyLarge;
-		text-align: center;
-		margin: 2rem 7rem 0;
-		color: $light-navyblue-color;
-		font-weight: 500;
 	}
 
 	&__header--text {
@@ -44,7 +37,7 @@
 
 .connect {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin: 2rem auto;
@@ -52,24 +45,32 @@
 	width: 100%;
 	text-align: center;
 
+	&__message {
+		@include desktopBodyLarge;
+		text-align: center;
+		margin: 2rem 7rem 2rem;
+		color: $navyblue-color;
+		font-weight: 500;
+	}
+
 	&__icon {
 		width: 2.5rem;
 		height: 2.5rem;
-		filter: invert(9%) sepia(51%) saturate(1573%) hue-rotate(193deg) brightness(100%)
-			contrast(95%);
+		filter: invert(49%) sepia(14%) saturate(498%) hue-rotate(179deg) brightness(90%)
+			contrast(91%);
 	}
 
 	&-btn {
 		padding: 0.75rem;
-		color: $light-navyblue-color;
-		font-weight: 500;
-		border: 2px solid $navyblue-color;
+		color: $gray-color;
+		font-weight: 400;
+		border: 1px solid $gray-color;
 		border-radius: 0.5rem;
 		font-family: "atlasgrotesk";
 		display: inline-block;
-		margin: 0.7rem 0 0;
 
 		&:hover {
+			border: 1px solid $navyblue-color;
 			box-shadow: inset 200px 0 0 0 $navyblue-color;
 			color: #fff;
 			transition: all 0.3s ease-in-out;
@@ -82,8 +83,162 @@
 
 	&__text {
 		@include desktopBodyLarge;
-		margin-top: 0.7rem;
+		margin: 0.7rem 0;
 		color: $light-navyblue-color;
-		font-weight: 500;
+		font-weight: 400;
+	}
+}
+
+/*  MOBILE  */
+@include breakpoint.small {
+	.contact {
+		flex: 1;
+		width: 100%;
+		// margin: 4rem 0;
+
+		&__container {
+			max-width: 80rem;
+			margin: 0;
+			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.connect {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		gap: 7%;
+		width: 100%;
+		text-align: center;
+
+		&__message {
+			margin: 0 0 2rem;
+		}
+
+		&__icon {
+			width: 2.5rem;
+			height: 2.5rem;
+			filter: invert(49%) sepia(14%) saturate(498%) hue-rotate(179deg) brightness(90%)
+				contrast(91%);
+		}
+
+		&-btn {
+			padding: 0.75rem;
+			color: $gray-color;
+			font-weight: 400;
+			border: 1px solid $gray-color;
+			border-radius: 0.5rem;
+			font-family: "atlasgrotesk";
+			display: inline-block;
+
+			&:hover {
+				border: 1px solid $navyblue-color;
+				box-shadow: inset 200px 0 0 0 $navyblue-color;
+				color: #fff;
+				transition: all 0.3s ease-in-out;
+			}
+
+			&--text {
+				@include desktopLabelsLinksButtons;
+			}
+		}
+
+		&__email {
+			margin-bottom: 3rem;
+		}
+	}
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+	.contact {
+		flex: 1;
+		width: 100%;
+
+		&__container {
+			margin: 0;
+			padding: 3rem;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.connect {
+		margin: 0;
+		&__message {
+			width: 85%;
+			margin: 1rem 0rem 2rem;
+			text-align: center;
+		}
+
+		&__inbox {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 7%;
+			width: 100%;
+		}
+	}
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+	.contact {
+		flex: 1;
+		width: 100%;
+		// margin: 4rem 0;
+
+		&__container {
+			max-width: 80rem;
+			margin: 0 auto;
+			padding: 4rem;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
+
+		&__content {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			gap: 5%;
+		}
+
+		&__header--text {
+			color: $light-navyblue-color;
+			@include desktopPageHeader;
+			margin: 0;
+		}
+	}
+	.connect {
+		margin: 0;
+		&__message {
+			margin: 1rem 7rem 2rem;
+			text-align: center;
+		}
+
+		&__inbox {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 7%;
+			width: 100%;
+		}
 	}
 }

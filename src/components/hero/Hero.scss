@@ -29,6 +29,7 @@
 		&--intro {
 			@include desktopBodyLarge;
 			color: $navyblue-color;
+			font-weight: 500;
 		}
 
 		&--name {
@@ -44,7 +45,7 @@
 		}
 		&--typewritten {
 			font-size: 4rem;
-			color: $lightest-navyblue-color;
+			color: $gray-color;
 		}
 	}
 
@@ -55,7 +56,7 @@
 			padding: 0.7rem 2rem 0.7rem 2rem;
 			color: $light-navyblue-color;
 			font-weight: 500;
-			border: 2px solid $navyblue-color;
+			border: 1px solid $navyblue-color;
 			border-radius: 0.5rem;
 			font-family: "atlasgrotesk";
 			display: inline-block;
@@ -72,4 +73,157 @@
 
 /*  MOBILE   */
 @include breakpoint.small {
+	.hero {
+		flex: 1;
+		width: 100%;
+		height: auto;
+		padding-top: 5rem;
+
+		&__container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0rem 2rem;
+			height: 100%;
+			width: 100%;
+		}
+		&__content {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			padding: 2rem 0rem;
+			background-color: #fff;
+			border-radius: 0;
+			box-shadow: none;
+
+			&--intro {
+				@include desktopBodyLarge;
+				color: $navyblue-color;
+				font-weight: 500;
+			}
+
+			&--name {
+				font-size: 2.5rem;
+				color: $light-navyblue-color;
+				line-height: 2.5rem;
+				margin-top: 2rem;
+				margin-bottom: 1rem;
+			}
+			&--caption {
+				font-size: 1.75rem;
+				line-height: 2.5rem;
+				color: $light-navyblue-color;
+				margin-bottom: 3rem;
+			}
+			&--typewritten {
+				font-size: 1.75rem;
+				color: $gray-color;
+				line-height: 2.5rem;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+	.hero {
+		flex: 1;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 5rem;
+
+		&__container {
+			margin: 2rem 3rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 75%;
+			width: 100%;
+		}
+
+		&__content {
+			width: 100%;
+			padding: 3rem 3rem;
+			background-color: $primary-color;
+			border-radius: 1rem;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+			&--intro {
+				@include desktopBodyLarge;
+				color: $navyblue-color;
+				font-weight: 500;
+			}
+
+			&--name {
+				font-size: 5rem;
+				color: $light-navyblue-color;
+				margin-top: 2rem;
+				margin-bottom: 1rem;
+			}
+			&--caption {
+				font-size: 3.75rem;
+				color: $light-navyblue-color;
+				margin-bottom: 3rem;
+			}
+			&--typewritten {
+				font-size: 3.75rem;
+				color: $gray-color;
+			}
+		}
+	}
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+	.hero {
+		flex: 1;
+		width: 100%;
+		height: 100vh;
+
+		&__container {
+			max-width: 80rem;
+			margin: 1rem auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
+
+		&__content {
+			width: 100%;
+			margin: 0rem 4rem;
+			padding: 3rem 3rem;
+			background-color: $primary-color;
+			border-radius: 1rem;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+			&--intro {
+				@include desktopBodyLarge;
+				color: $navyblue-color;
+				font-weight: 500;
+			}
+
+			&--name {
+				font-size: 5rem;
+				color: $light-navyblue-color;
+				margin-top: 2rem;
+				margin-bottom: 1rem;
+			}
+			&--caption {
+				font-size: 4rem;
+				color: $light-navyblue-color;
+				margin-bottom: 3rem;
+			}
+			&--typewritten {
+				font-size: 4rem;
+				color: $gray-color;
+			}
+		}
+	}
 }

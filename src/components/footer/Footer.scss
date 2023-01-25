@@ -12,7 +12,14 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 2rem 1rem;
+		padding: 1rem 2rem;
+	}
+
+	&__note {
+		@include desktopBodyLarge;
+		margin: 0.7rem 0;
+		color: $navyblue-color;
+		font-weight: 500;
 	}
 
 	&__socials {
@@ -29,6 +36,33 @@
 			width: 2rem;
 			height: 2rem;
 			color: $navyblue-color;
+		}
+	}
+}
+
+/*  MOBILE  */
+@include breakpoint.small {
+	.footer {
+		&__container {
+			flex-direction: column;
+		}
+	}
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+	.footer {
+		&__container {
+			padding: 1.5rem 3rem;
+		}
+	}
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+	.footer {
+		&__container {
+			padding: 2rem 4rem;
 		}
 	}
 }
