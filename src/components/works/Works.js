@@ -75,7 +75,7 @@ const Works = () => {
 							</a>
 						</div>
 					</div>
-					<div className="project project--rev">
+					<div className="project ">
 						<div className="project__image--rev">
 							<a href="#">
 								<img src={EA} alt="project 2" className="project__image--img" />
@@ -178,7 +178,7 @@ const Works = () => {
 							</a>
 						</div>
 					</div>
-					<div className="project project--rev">
+					<div className="project ">
 						<div className="project__image--rev">
 							<a href="#">
 								<img src={pr} alt="project 4" className="project__image--img" />
