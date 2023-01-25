@@ -185,6 +185,11 @@
 		&__content {
 			margin-top: 0;
 		}
+
+		&__header--text {
+			color: $light-navyblue-color;
+			@include mobilePageHeader;
+		}
 	}
 
 	.project {
@@ -197,12 +202,12 @@
 			display: block;
 			border-radius: 25px;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-			filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.1);
+			filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.2);
 			transition: opacity 2s ease-in-out 0s;
 			margin-left: -18.5rem;
 
 			&:hover {
-				filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.1);
+				filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.2);
 				margin-left: -18.5rem;
 				transition: none;
 			}
@@ -213,13 +218,13 @@
 				max-width: 43.75rem;
 				display: block;
 				border-radius: 25px;
-				box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-				filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.1);
+				box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+				filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.2);
 				transition: opacity 2s ease-in-out 0s;
 				margin-right: -18.5rem;
 
 				&:hover {
-					filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.1);
+					filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.2);
 					margin-right: -18.5rem;
 					transition: none;
 				}
@@ -240,8 +245,161 @@
 
 /*  TABLET  */
 @include breakpoint.medium {
+	.works {
+		&__container {
+			margin: 0;
+			padding: 3rem;
+		}
+
+		&__content {
+			margin-top: 0;
+		}
+	}
+
+	.project {
+		margin: 3rem 0 3rem;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+
+		&__content {
+			width: 40%;
+
+			&--rev {
+				width: 40%;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+		}
+
+		&__image {
+			width: 55%;
+			height: 23.4375rem;
+			min-width: 31.25rem;
+			max-width: 40.625rem;
+			display: block;
+			border-radius: 25px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.4);
+			transition: opacity 2s ease-in-out 0s;
+
+			margin-left: -10rem;
+
+			&:hover {
+				filter: none;
+				margin-left: -10rem;
+				transition: none;
+			}
+
+			&--img {
+				width: 100%;
+				height: 100%;
+				border-radius: 25px;
+			}
+		}
+
+		&__image--rev {
+			width: 55%;
+			height: 23.4375rem;
+			min-width: 31.25rem;
+			max-width: 40.625rem;
+			display: block;
+			border-radius: 25px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.4);
+			transition: opacity 2s ease-in-out 0s;
+
+			margin-right: -10rem;
+
+			&:hover {
+				filter: none;
+				margin-right: -10rem;
+				transition: none;
+			}
+
+			&--img {
+				width: 100%;
+				height: 100%;
+				border-radius: 25px;
+			}
+		}
+	}
 }
 
 /*  DESKTOP  */
 @include breakpoint.large {
+	.works {
+		&__container {
+			max-width: 80rem;
+			margin: 0 auto;
+			padding: 4rem;
+		}
+	}
+
+	.project {
+		margin: 4rem 0 4rem;
+
+		&__content {
+			width: 40%;
+
+			&--rev {
+				width: 40%;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+		}
+
+		&__image {
+			width: 50%;
+			height: 23.4375rem;
+			max-width: 43.75rem;
+			display: block;
+			border-radius: 25px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.5);
+			transition: opacity 2s ease-in-out 0s;
+
+			margin-left: -10rem;
+
+			&:hover {
+				filter: none;
+				margin-left: 3.125rem;
+				transition: all 0.3s ease-in-out;
+			}
+
+			&--img {
+				width: 100%;
+				height: 100%;
+				border-radius: 25px;
+			}
+		}
+
+		&__image--rev {
+			width: 50%;
+			height: 23.4375rem;
+			max-width: 43.75rem;
+			display: block;
+			border-radius: 25px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+			filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.5);
+			transition: opacity 2s ease-in-out 0s;
+
+			margin-right: -10rem;
+
+			&:hover {
+				filter: none;
+				margin-right: 3.125rem;
+				transition: all 0.3s ease-in-out;
+			}
+
+			&--img {
+				width: 100%;
+				height: 100%;
+				border-radius: 25px;
+			}
+		}
+	}
 }

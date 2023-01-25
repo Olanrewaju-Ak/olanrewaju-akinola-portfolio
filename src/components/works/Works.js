@@ -139,6 +139,7 @@ const Works = () => {
 								<li className="project__tech-list--item">React</li>
 								<li className="project__tech-list--item">Node</li>
 								<li className="project__tech-list--item">Express</li>
+								<li className="project__tech-list--item">API</li>
 							</ul>
 							<div className="project__links">
 								<a
