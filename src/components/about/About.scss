@@ -62,3 +62,69 @@
 	@include desktopBodyLarge;
 	color: $navyblue-color;
 }
+
+/*  MOBILE  */
+@include breakpoint.small {
+	.about {
+		flex: 1;
+		width: 100%;
+		min-height: 40.3125rem;
+		background-color: $primary-color;
+
+		&__container {
+			padding: 0rem 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+
+			// width: 100%;
+		}
+
+		&__content {
+			flex: 1;
+			display: flex;
+			flex-direction: column-reverse;
+			// justify-content: center;
+			align-items: center;
+			// gap: 12%;
+		}
+
+		&__right-side {
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+		// &__left-side {
+		// 	width: 50%;
+		// }
+
+		&__profile-image {
+			background-color: gray;
+			background: url("../../assets/images/side_profile.jpg");
+			background-size: cover;
+			background-repeat: repeat;
+			background-position: center;
+			height: 20rem;
+			width: 20rem;
+			border-radius: 50%;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+			margin-bottom: 2rem;
+		}
+
+		&__header {
+			&--text {
+				color: $light-navyblue-color;
+				@include desktopPageHeader;
+				margin: 2rem 0 2rem;
+			}
+		}
+	}
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+}

@@ -86,3 +86,15 @@
 		font-weight: 400;
 	}
 }
+
+/*  MOBILE  */
+@include breakpoint.small {
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+}

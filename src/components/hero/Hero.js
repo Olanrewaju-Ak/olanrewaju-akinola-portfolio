@@ -14,7 +14,7 @@ const Hero = () => {
 		],
 		loop: {},
 		typeSpeed: 120,
-		deleteSpeed: 50
+		deleteSpeed: 120
 	});
 	return (
 		<section className="hero" id="home">

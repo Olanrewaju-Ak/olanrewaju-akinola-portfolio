@@ -32,3 +32,15 @@
 		}
 	}
 }
+
+/*  MOBILE  */
+@include breakpoint.small {
+}
+
+/*  TABLET  */
+@include breakpoint.medium {
+}
+
+/*  DESKTOP  */
+@include breakpoint.large {
+}
