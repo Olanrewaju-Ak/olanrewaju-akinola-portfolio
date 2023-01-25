@@ -12,21 +12,19 @@ const About = () => {
 				<div className="about__content">
 					<div className="about__right-side">
 						<p className="paragraph">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-							quibusdam accusantium nihil doloribus vel suscipit modi similique
-							accusamus sit eveniet repellat fuga at assumenda quae facilis,
-							blanditiis sapiente! At earum facere quam voluptate laboriosam sapiente,
-							aliquam corporis rem quod officia fugit facilis obcaecati,
-							exercitationem nulla ipsam praesentium dicta corrupti dolorum?
+							Hello, my name is olanrewaju /'O' as in or - 'lan'- 're' as in
+							(ra)y-w-'a' as in America-ju /. I am a full-stack developer with a
+							background in architecture and design. I love designing and creating
+							things. My passion for human centered designs and using technology to
+							provide creative solutions, led me into web development and I'm keen on
+							gathering knowledge and experience every step of the way.
 						</p>
 						<br />
 						<p className="paragraph">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-							quibusdam accusantium nihil doloribus vel suscipit modi similique
-							accusamus sit eveniet repellat fuga at assumenda quae facilis,
-							blanditiis sapiente! At earum facere quam voluptate laboriosam sapiente,
-							aliquam corporis rem quod officia fugit facilis obcaecati,
-							exercitationem nulla ipsam praesentium dicta corrupti dolorum?
+							In my free time, you can catch me watching movies , listening to music ,
+							or following sports. I aslo love arts, hiking and taking photographs
+							(albeit just casually). It is always lovely to enjoy nature with
+							friends.
 						</p>
 					</div>
 					<div className="about__profile-image"></div>

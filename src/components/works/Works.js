@@ -18,7 +18,7 @@ const Works = () => {
 					<h2 className="works__header--text">Some Projects I've Built</h2>
 				</div>
 				<div className="works__content">
-					<div className="project">
+					<div className="project" id="ontrack">
 						<div className="project__content">
 							<p className="project__overline">Featured Project</p>
 							<h4 className="project__title">OnTrack</h4>
@@ -66,7 +66,7 @@ const Works = () => {
 							</div>
 						</div>
 						<div className="project__image">
-							<a href="#">
+							<a href="#ontrack">
 								<img
 									src={Ontrack}
 									alt="project 1"
@@ -75,9 +75,9 @@ const Works = () => {
 							</a>
 						</div>
 					</div>
-					<div className="project ">
+					<div className="project " id="ea">
 						<div className="project__image--rev">
-							<a href="#">
+							<a href="#ea">
 								<img src={EA} alt="project 2" className="project__image--img" />
 							</a>
 						</div>
@@ -125,7 +125,7 @@ const Works = () => {
 							</div>
 						</div>
 					</div>
-					<div className="project">
+					<div className="project" id="brainflix">
 						<div className="project__content">
 							<p className="project__overline">Featured Project</p>
 							<h4 className="project__title">BrainFlix</h4>
@@ -143,7 +143,7 @@ const Works = () => {
 							</ul>
 							<div className="project__links">
 								<a
-									href="#"
+									href="#brainflix"
 									target="_blank"
 									rel="noreferrer"
 									className="project__links-item"
@@ -170,7 +170,7 @@ const Works = () => {
 							</div>
 						</div>
 						<div className="project__image">
-							<a href="#">
+							<a href="#brainflix">
 								<img
 									src={brainflix}
 									alt="project 3"
@@ -179,9 +179,9 @@ const Works = () => {
 							</a>
 						</div>
 					</div>
-					<div className="project ">
+					<div className="project " id="pf">
 						<div className="project__image--rev">
-							<a href="#">
+							<a href="#pf">
 								<img src={pr} alt="project 4" className="project__image--img" />
 							</a>
 						</div>
@@ -198,7 +198,7 @@ const Works = () => {
 							</ul>
 							<div className="project__links project__links--rev">
 								<a
-									href="#"
+									href="#pf"
 									target="_blank"
 									rel="noreferrer"
 									className="project__links-item"

@@ -25,7 +25,7 @@ const Hero = () => {
 					<h2 className="hero__content--caption">
 						I am <span className="hero__content--typewritten">{text}</span>
 						<span className="hero__content--typewritten">
-							<Cursor cursorStyle="<" />
+							<Cursor cursorStyle="" />
 						</span>
 					</h2>
 					<a className="connect-btn" href="#contact">
