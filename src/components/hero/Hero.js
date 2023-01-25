@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import "./Hero.scss";
-import arrow from "../../assets/icons/iconmonstr-arrow-right-thin.svg";
+// import arrow from "../../assets/icons/iconmonstr-arrow-right-thin.svg";
 
 const Hero = () => {
 	const [text] = useTypewriter({
