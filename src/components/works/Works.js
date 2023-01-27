@@ -15,17 +15,23 @@ const Works = () => {
 		<section className="works" id="works">
 			<div className="works__container">
 				<div className="works__header">
-					<h2 className="works__header--text">Some Projects I've Built</h2>
+					<h3 className="works__header--text">Some Projects I've Built</h3>
 				</div>
 				<div className="works__content">
 					<div className="project" id="ontrack">
 						<div className="project__content">
 							<p className="project__overline">Featured Project</p>
-							<h4 className="project__title">OnTrack</h4>
+							<a
+								href="https://drive.google.com/file/d/1Zh1muU40wtmWavI_wTdTRbbxO4Mv4xvX/view?usp=share_link"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<h4 className="project__title">OnTrack</h4>
+							</a>
 							<div className="project__description">
 								<p>
 									OnTrack is a personal financial application that helps users
-									keep record of their daily income and expenses, and helps users
+									keep record of their daily income and expenses, and helps them
 									to create budgets.
 								</p>
 							</div>
@@ -66,7 +72,11 @@ const Works = () => {
 							</div>
 						</div>
 						<div className="project__image">
-							<a href="#ontrack">
+							<a
+								href="https://drive.google.com/file/d/1Zh1muU40wtmWavI_wTdTRbbxO4Mv4xvX/view?usp=share_link"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img
 									src={Ontrack}
 									alt="project 1"
@@ -77,13 +87,23 @@ const Works = () => {
 					</div>
 					<div className="project " id="ea">
 						<div className="project__image--rev">
-							<a href="#ea">
+							<a
+								href="https://drive.google.com/file/d/1xRPHJASMUhpguv7l_ZqMGDuFcbU5vsZD/view?usp=sharing"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img src={EA} alt="project 2" className="project__image--img" />
 							</a>
 						</div>
 						<div className="project__content--rev">
 							<p className="project__overline">Featured Project</p>
-							<h4 className="project__title">EA Hackatton</h4>
+							<a
+								href="https://drive.google.com/file/d/1xRPHJASMUhpguv7l_ZqMGDuFcbU5vsZD/view?usp=sharing"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<h4 className="project__title">EA Hackathon</h4>
+							</a>
 							<div className="project__description">
 								<p>
 									A 24hrs cross-functional hackathon hosted by BrainStation and
@@ -128,11 +148,17 @@ const Works = () => {
 					<div className="project" id="brainflix">
 						<div className="project__content">
 							<p className="project__overline">Featured Project</p>
-							<h4 className="project__title">BrainFlix</h4>
+							<a
+								href="https://drive.google.com/file/d/1mYG8xSGX3L09i3TeLdSUfIgnPdMSnWnB/view?usp=share_link"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<h4 className="project__title">BrainFlix</h4>
+							</a>
 							<div className="project__description">
 								<p>
 									A video sharing website like YouTube, using React framework and
-									custom Api and database.
+									custom API and database.
 								</p>
 							</div>
 							<ul className="project__tech-list">
@@ -143,7 +169,7 @@ const Works = () => {
 							</ul>
 							<div className="project__links">
 								<a
-									href="#brainflix"
+									href="https://drive.google.com/file/d/1mYG8xSGX3L09i3TeLdSUfIgnPdMSnWnB/view?usp=share_link"
 									target="_blank"
 									rel="noreferrer"
 									className="project__links-item"
@@ -170,7 +196,11 @@ const Works = () => {
 							</div>
 						</div>
 						<div className="project__image">
-							<a href="#brainflix">
+							<a
+								href="https://drive.google.com/file/d/1mYG8xSGX3L09i3TeLdSUfIgnPdMSnWnB/view?usp=share_link"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<img
 									src={brainflix}
 									alt="project 3"
@@ -183,6 +213,12 @@ const Works = () => {
 						<div className="project__image--rev">
 							<a href="#pf">
 								<img src={pr} alt="project 4" className="project__image--img" />
+								{/* <iframe
+									src="https://olanrewaju-ak-portfolio.netlify.app/"
+									width={650}
+									height={375}
+									frameborder="0"
+								></iframe> */}
 							</a>
 						</div>
 						<div className="project__content--rev">
