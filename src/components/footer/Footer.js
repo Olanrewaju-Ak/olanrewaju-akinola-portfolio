@@ -33,14 +33,7 @@ const Footer = () => {
 					>
 						<img src={github} alt="github" className="footer__socials-img" />
 					</a>
-					<a
-						href="https://github.com/Olanrewaju-Ak"
-						target="_blank"
-						rel="noreferrer"
-						className="footer__socials-link"
-					>
-						<img src={github} alt="github" className="footer__socials-img" />
-					</a>
+					
 				</div>
 			</div>
 		</section>
