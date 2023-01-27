@@ -7,10 +7,10 @@ import "./Hero.scss";
 const Hero = () => {
 	const [text] = useTypewriter({
 		words: [
-			"a Web Developer.",
-			"a Full-stack Developer.",
-			"a Front-end Developer.",
-			"an Architect."
+			"a Web Developer .",
+			"a Full-stack Developer .",
+			"a Front-end Developer .",
+			"an Architect ."
 		],
 		loop: {},
 		typeSpeed: 120,
@@ -29,7 +29,7 @@ const Hero = () => {
 						</span>
 					</h2>
 					<a className="connect-btn" href="#contact">
-						<p>Let's connect</p>
+						<p>Let's connect -&gt;</p>
 					</a>
 				</div>
 			</div>
