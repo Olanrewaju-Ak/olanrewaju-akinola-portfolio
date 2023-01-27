@@ -27,7 +27,7 @@ const Header = () => {
 					<h2 className="navbar__logo-text">Olánrewájú</h2>
 				</div>
 				<ul className={isMobile ? "mobile" : "navbar__list"}>
-					{["home", "about", "skills", "works", "contact"].map((item) => (
+					{["home", "about", "skills", "work", "contact"].map((item) => (
 						<li
 							className={isMobile ? "mobile__list-item" : "navbar__list-item"}
 							key={`link-${item}`}
