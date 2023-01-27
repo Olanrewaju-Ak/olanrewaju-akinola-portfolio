@@ -10,15 +10,15 @@ const Contact = () => {
 		<section className="contact" id="contact">
 			<div className="contact__container">
 				<div className="contact__header">
-					<h3 className="contact__header--text">Get In Touch</h3>
+					<h2 className="contact__header--text">Get In Touch</h2>
 				</div>
 				<div className="contact__content">
 					<div className="connect">
 						<p className="connect__message">
 							I'm currently looking for an entry level role or an internship as a
-							junior developer. Kindly contact me if you have any opportunities for
-							me. Also feel free to reach out if you have a question or you just want
-							to connect.
+							junior developer. Kindly contact me if you have any opportunity for me.
+							Also feel free to reach out to me if you have a question or just want to
+							say hi .
 						</p>
 						<div className="connect__inbox">
 							<div className="connect__email">
@@ -28,7 +28,7 @@ const Contact = () => {
 									href="mailto:akinola_lanrewaju@yahoo.com"
 									className="connect-btn"
 								>
-									<p className="connect-btn--text">Shoot Me An Email</p>
+									<p className="connect-btn--text">Send Me An Email</p>
 								</a>
 							</div>
 							<div className="connect__linked">
@@ -40,7 +40,7 @@ const Contact = () => {
 									rel="noreferrer"
 									className="connect-btn"
 								>
-									<p className="connect-btn--text">Shoot Me A Message</p>
+									<p className="connect-btn--text">Send Me A Message</p>
 								</a>
 							</div>
 						</div>

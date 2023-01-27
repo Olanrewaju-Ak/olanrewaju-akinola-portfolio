@@ -19,26 +19,26 @@ const Skills = () => {
 		<section className="skills" id="skills">
 			<div className="skills__container">
 				<div className="skills__header">
-					<h3 className="skills__header--text">My Skills</h3>
+					<h2 className="skills__header--text">My Skills</h2>
 				</div>
 				<div className="skills__content">
-					<div className="skill__item  wave-div">
+					<div className="skill__item bouncer wave-div">
 						<div className="skill__item-icon">
 							<img src={html} alt="html" className="skill__item-icon--image" />
 						</div>
-						<p className="skill__item-name">HTML</p>
+						<p className="skill__item-name">Html</p>
 					</div>
-					<div className="skill__item  wave-div">
+					<div className="skill__item bouncer wave-div">
 						<div className="skill__item-icon">
 							<img src={css} alt="css" className="skill__item-icon--image" />
 						</div>
-						<p className="skill__item-name ">CSS</p>
+						<p className="skill__item-name ">Css</p>
 					</div>
-					<div className="skill__item  wave-div">
+					<div className="skill__item bouncer wave-div">
 						<div className="skill__item-icon">
 							<img src={sass} alt="sass" className="skill__item-icon--image" />
 						</div>
-						<p className="skill__item-name">SASS</p>
+						<p className="skill__item-name">Sass</p>
 					</div>
 					<div className="skill__item wave-div">
 						<div className="skill__item-icon">
@@ -68,13 +68,13 @@ const Skills = () => {
 						<div className="skill__item-icon">
 							<img src={node} alt="Node" className="skill__item-icon--image" />
 						</div>
-						<p className="skill__item-name">Node.js</p>
+						<p className="skill__item-name">Node</p>
 					</div>
 					<div className="skill__item wave-div">
 						<div className="skill__item-icon">
 							<img src={api} alt="api" className="skill__item-icon--image" />
 						</div>
-						<p className="skill__item-name">API</p>
+						<p className="skill__item-name">Api</p>
 					</div>
 					<div className="skill__item wave-div">
 						<div className="skill__item-icon">

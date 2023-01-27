@@ -294,7 +294,9 @@
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					padding-bottom: 0.25;
 					color: $navyblue-color;
+					border-bottom: 3px solid $white-color;
 				}
 
 				div {

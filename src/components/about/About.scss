@@ -47,11 +47,6 @@
 		width: 20rem;
 		border-radius: 50%;
 		box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-		filter: grayscale(100%) opacity(0.7);
-
-		&:hover {
-			filter: none;
-		}
 	}
 
 	&__header {
@@ -67,16 +62,6 @@
 	@include desktopBodyLarge;
 	color: $navyblue-color;
 	font-weight: 500;
-}
-
-.transcript {
-	// color: $lightest-navyblue-color;
-	color: $gray-color;
-	font-weight: 400;
-}
-.highlight {
-	color: $navyblue-color;
-	font-weight: 700;
 }
 
 /*  MOBILE  */
