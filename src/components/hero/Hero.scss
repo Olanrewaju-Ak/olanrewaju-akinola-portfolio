@@ -50,7 +50,7 @@
 	}
 
 	.connect {
-		&-btn {
+		&__btn {
 			width: 10.9375rem;
 			padding: 0.7rem 2rem 0.7rem 2rem;
 			color: $light-navyblue-color;
@@ -62,7 +62,6 @@
 
 			&:hover {
 				box-shadow: inset 200px 0 0 0 $navyblue-color;
-
 				color: #fff;
 				transition: all 0.3s ease-in-out;
 			}
@@ -120,6 +119,28 @@
 				color: $gray-color;
 				line-height: 2.5rem;
 				margin-bottom: 3rem;
+			}
+		}
+	}
+	.connect {
+		&__btn {
+			width: 10.9375rem;
+			padding: 0.7rem 2rem 0.7rem 2rem;
+			background-color: $light-navyblue-color;
+			font-weight: 500;
+			border: none;
+			border-radius: 0.5rem;
+			font-family: "atlasgrotesk";
+			display: inline-block;
+
+			&-text {
+				color: #fff;
+			}
+
+			&:hover {
+				background-color: $navyblue-color;
+				color: #fff;
+				transition: all 0.3s ease-in-out;
 			}
 		}
 	}

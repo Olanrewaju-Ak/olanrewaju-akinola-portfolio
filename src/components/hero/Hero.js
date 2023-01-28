@@ -28,8 +28,8 @@ const Hero = () => {
 							<Cursor cursorStyle="" />
 						</span>
 					</h2>
-					<a className="connect-btn" href="#contact">
-						<p>Let's connect</p>
+					<a className="connect__btn" href="#contact">
+						<p className="connect__btn-text">Let's connect</p>
 					</a>
 				</div>
 			</div>
