@@ -12,7 +12,7 @@ import arrowUpright from "../../assets/icons/external-link.svg";
 
 const Works = () => {
 	return (
-		<section className="works" id="works">
+		<section className="works" id="work">
 			<div className="works__container">
 				<div className="works__header">
 					<h3 className="works__header--text">Some Projects I've Built</h3>
