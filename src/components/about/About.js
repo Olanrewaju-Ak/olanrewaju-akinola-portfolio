@@ -13,7 +13,8 @@ const About = () => {
 					<div className="about__right-side">
 						<p className="paragraph">
 							Hello, my name is Olanrewaju{" "}
-							<span className="transcript">/o-lan-raey-wah-ju/</span>. I am a
+							<span className="transcript">/o-lan-raey-wah-ju/</span>, you can call me
+							Lanre <span className="transcript">/lan-raey/</span>. I am a
 							<span className="highlight"> Full-stack Developer</span> with a
 							background in architecture and design. I love designing and creating
 							things. My passion for human centered designs and using technology to
