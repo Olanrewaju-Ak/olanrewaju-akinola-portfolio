@@ -115,7 +115,7 @@
 		&:hover {
 			filter: none;
 			margin-left: 3.125rem;
-			transition: all 0.3s ease-in-out;
+			transition: all 2s ease-in-out;
 		}
 
 		&--img {
@@ -140,7 +140,7 @@
 		&:hover {
 			filter: none;
 			margin-right: 3.125rem;
-			transition: all 0.3s ease-in-out;
+			transition: all 2s ease-in-out;
 		}
 
 		&--img {
@@ -215,7 +215,7 @@
 			&--rev {
 				width: 100%;
 				max-height: 18.75rem;
-				min-width: 18.75rem;
+				min-width: 17.75rem;
 				max-width: 28.125rem;
 				display: block;
 				border-radius: 1.5625rem;
@@ -432,17 +432,17 @@
 			height: 20.1875rem;
 			width: 35.9375rem;
 			display: block;
-			border-radius: 25px;
+			border-radius: 1.5625rem;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.5);
-			transition: opacity 2s ease-in-out 0s;
+			transition: all opacity 0.5s ease 0s;
 
 			margin-left: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-left: 3.125rem;
-				transition: all 0.3s ease-in-out;
+				transition: all 0.5s ease-in-out 0s;
 			}
 
 			&--img {
@@ -460,14 +460,14 @@
 			border-radius: 25px;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 			filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.5);
-			transition: opacity 2s ease-in-out 0s;
+			transition: all opacity 0.8s ease-in-out 0s;
 
 			margin-right: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-right: 3.125rem;
-				transition: all 0.3s ease-in-out;
+				transition: all 0.5s ease-in-out;
 			}
 
 			&--img {

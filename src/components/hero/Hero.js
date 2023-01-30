@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import "./Hero.scss";
-// import arrow from "../../assets/icons/iconmonstr-arrow-right-thin.svg";
+import ParticlesBackground from "../particles-background/ParticlesBackground";
 
 const Hero = () => {
 	const [text] = useTypewriter({
@@ -19,6 +19,9 @@ const Hero = () => {
 	return (
 		<section className="hero" id="home">
 			<div className="hero__container">
+				<div>
+					<ParticlesBackground />
+				</div>
 				<div className="hero__content">
 					<p className="hero__content--intro">Hi, my name is</p>
 					<h1 className="hero__content--name">Olanrewaju Akinola</h1>
@@ -28,6 +31,9 @@ const Hero = () => {
 							<Cursor cursorStyle="" />
 						</span>
 					</h2>
+					<p className="hero__content--bio">
+						I enjoy creating and building user-centric solutions.
+					</p>
 					<a className="connect__btn" href="#contact">
 						<p className="connect__btn-text">Let's connect</p>
 					</a>
