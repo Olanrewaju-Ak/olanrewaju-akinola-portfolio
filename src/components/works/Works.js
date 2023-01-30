@@ -2,10 +2,10 @@ import React from "react";
 
 import "./Works.scss";
 
-import Ontrack from "../../assets/images/ontrack.jpg";
-import EA from "../../assets/images/EA.jpg";
-import pr from "../../assets/images/pr.jpg";
-import brainflix from "../../assets/images/brainflix.jpg";
+import Ontrack from "../../assets/images/ontrack.webp";
+import EA from "../../assets/images/EA.webp";
+import pr from "../../assets/images/pr.webp";
+import brainflix from "../../assets/images/brainflix.webp";
 
 import github from "../../assets/icons/github.svg";
 import arrowUpright from "../../assets/icons/external-link.svg";

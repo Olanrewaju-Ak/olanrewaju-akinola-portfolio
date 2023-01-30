@@ -1,16 +1,17 @@
 import React from "react";
 
-import html from "../../assets/images/html.png";
-import css from "../../assets/images/css.png";
-import sass from "../../assets/images/sass.png";
-import js from "../../assets/images/javascript.png";
-import react from "../../assets/images/react.png";
-import figma from "../../assets/images/figma.png";
-import node from "../../assets/images/node.png";
-import api from "../../assets/images/api.png";
-import git from "../../assets/images/git.png";
-import mysql from "../../assets/images/mysql.png";
-import knex from "../../assets/images/knex.png";
+import html from "../../assets/images/html.webp";
+import css from "../../assets/images/css.webp";
+import sass from "../../assets/images/sass.webp";
+import js from "../../assets/images/javascript.webp";
+import react from "../../assets/images/react.webp";
+import figma from "../../assets/images/figma.webp";
+import node from "../../assets/images/node.webp";
+import api from "../../assets/images/api.webp";
+import git from "../../assets/images/git.webp";
+import mysql from "../../assets/images/mysql.webp";
+import knex from "../../assets/images/knex.webp";
+import ps from "../../assets/images/ps.webp";
 
 import "./Skills.scss";
 
@@ -57,6 +58,12 @@ const Skills = () => {
 							<img src={figma} alt="Figma" className="skill__item-icon--image" />
 						</div>
 						<p className="skill__item-name">Figma</p>
+					</div>
+					<div className="skill__item wave-div">
+						<div className="skill__item-icon">
+							<img src={ps} alt="Photoshop" className="skill__item-icon--image" />
+						</div>
+						<p className="skill__item-name">Photoshop</p>
 					</div>
 					<div className="skill__item wave-div">
 						<div className="skill__item-icon">
