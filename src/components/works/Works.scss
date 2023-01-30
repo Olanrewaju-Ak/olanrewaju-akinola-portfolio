@@ -356,14 +356,14 @@
 			border-radius: 25px;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.4);
-			transition: opacity 2s ease-in-out 0s;
+			transition: opacity 0.4s ease-in-out 0s;
 
 			margin-left: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-left: -10rem;
-				transition: none;
+				transition: all 0.4s ease-in-out 0s;
 			}
 
 			&--img {
@@ -384,14 +384,14 @@
 			border-radius: 25px;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.4);
-			transition: opacity 2s ease-in-out 0s;
+			transition: opacity 0.4s ease-in-out 0s;
 
 			margin-right: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-right: -10rem;
-				transition: none;
+				transition: all 0.4s ease-in-out 0s;
 			}
 
 			&--img {
@@ -435,14 +435,14 @@
 			border-radius: 1.5625rem;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 			filter: grayscale(90%) contrast(0.4) brightness(90%) opacity(0.5);
-			transition: all opacity 0.5s ease 0s;
+			transition: all 0.6s ease-in-out 0s;
 
 			margin-left: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-left: 3.125rem;
-				transition: all 0.5s ease-in-out 0s;
+				transition: all 0.6s ease-in-out 0s;
 			}
 
 			&--img {
@@ -460,14 +460,14 @@
 			border-radius: 25px;
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 			filter: grayscale(50%) contrast(0.8) brightness(90%) opacity(0.5);
-			transition: all opacity 0.8s ease-in-out 0s;
+			transition: all 0.6s ease-in-out 0s;
 
 			margin-right: -10rem;
 
 			&:hover {
 				filter: none;
 				margin-right: 3.125rem;
-				transition: all 0.5s ease-in-out;
+				transition: all 0.6s ease-in-out;
 			}
 
 			&--img {
