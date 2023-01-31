@@ -213,12 +213,6 @@ const Works = () => {
 						<div className="project__image--rev">
 							<a href="#pf">
 								<img src={pr} alt="project 4" className="project__image--img" />
-								{/* <iframe
-									src="https://olanrewaju-ak-portfolio.netlify.app/"
-									width={650}
-									height={375}
-									frameborder="0"
-								></iframe> */}
 							</a>
 						</div>
 						<div className="project__content--rev">

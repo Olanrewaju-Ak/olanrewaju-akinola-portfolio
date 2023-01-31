@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "AtlasGrotesk";
+	font-family: "AtlasGrotesk", "inter", sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -41,7 +41,7 @@ input {
 }
 
 select {
-	font-family: "AtlasGrotesk";
+	font-family: "AtlasGrotesk", "inter", sans-serif;
 }
 
 fieldset {

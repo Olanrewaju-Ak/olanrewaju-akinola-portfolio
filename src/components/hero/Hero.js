@@ -6,12 +6,7 @@ import ParticlesBackground from "../particles-background/ParticlesBackground";
 
 const Hero = () => {
 	const [text] = useTypewriter({
-		words: [
-			"a Web Developer.",
-			"a Full-stack Developer.",
-			"a Front-end Developer.",
-			"an Architect."
-		],
+		words: ["a Web Developer.", "a Full-stack Developer.", "a Front-end Developer."],
 		loop: {},
 		typeSpeed: 120,
 		deleteSpeed: 120
