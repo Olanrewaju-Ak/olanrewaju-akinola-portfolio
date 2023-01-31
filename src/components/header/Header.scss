@@ -38,7 +38,7 @@
 			height: 0.3125rem;
 			background: transparent;
 			border-radius: 50%;
-			margin-bottom: 5px;
+			margin-bottom: 0.3125rem;
 		}
 	}
 
@@ -63,7 +63,6 @@
 				justify-content: center;
 				padding-bottom: 0.25;
 				color: $navyblue-color;
-				border-bottom: 3px solid $white-color;
 			}
 
 			div {
@@ -95,7 +94,7 @@
 			font-weight: 500;
 			border: 1px solid $gray-color;
 			border-radius: 0.5rem;
-			font-family: "atlasgrotesk";
+			font-family: "AtlasGrotesk", "inter", sans-serif;
 			display: inline-block;
 
 			&:hover {
@@ -150,7 +149,7 @@
 				font-weight: 500;
 				border: 1px solid $gray-color;
 				border-radius: 0.5rem;
-				font-family: "atlasgrotesk";
+				font-family: "AtlasGrotesk", "inter", sans-serif;
 				display: inline-block;
 
 				&:hover {
@@ -326,7 +325,7 @@
 				font-weight: 500;
 				border: 1px solid $gray-color;
 				border-radius: 0.5rem;
-				font-family: "atlasgrotesk";
+				font-family: "AtlasGrotesk", "inter", sans-serif;
 				display: inline-block;
 
 				&:hover {
@@ -446,7 +445,7 @@
 				font-weight: 500;
 				border: 1px solid $gray-color;
 				border-radius: 0.5rem;
-				font-family: "atlasgrotesk";
+				font-family: "AtlasGrotesk", "inter", sans-serif;
 				display: inline-block;
 
 				&:hover {
