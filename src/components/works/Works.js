@@ -211,7 +211,7 @@ const Works = () => {
 					</div>
 					<div className="project " id="pf">
 						<div className="project__image--rev">
-							<a href="#pf">
+							<a href="#home">
 								<img src={pr} alt="project 4" className="project__image--img" />
 							</a>
 						</div>
@@ -228,7 +228,7 @@ const Works = () => {
 							</ul>
 							<div className="project__links project__links--rev">
 								<a
-									href="#pf"
+									href="#home"
 									target="_blank"
 									rel="noreferrer"
 									className="project__links-item"

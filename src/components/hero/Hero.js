@@ -27,7 +27,7 @@ const Hero = () => {
 						</span>
 					</h2>
 					<p className="hero__content--bio">
-						I enjoy creating and building user-centric solutions.
+						I enjoy designing and creating user-centric solutions.
 					</p>
 					<a className="connect__btn" href="#contact">
 						<p className="connect__btn-text">Let's connect</p>
