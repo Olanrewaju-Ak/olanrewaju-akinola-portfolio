@@ -24,7 +24,7 @@ const About = () => {
 						<br />
 						<p className="paragraph">
 							In my free time, you can catch me watching movies, listening to music
-							and podcasts, or following sports. I aslo love arts, hiking and taking
+							and podcasts, or following sports. I also love arts, hiking and taking
 							photographs (albeit just casually). It is always lovely to enjoy nature
 							with friends.
 						</p>
