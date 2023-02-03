@@ -205,6 +205,7 @@
 			filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.1);
 			transition: opacity 2s ease-in-out 0s;
 			margin-left: -19.6rem;
+			display: none;
 
 			&:hover {
 				filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.1);
@@ -223,10 +224,11 @@
 				filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.1);
 				transition: opacity 2s ease-in-out 0s;
 				margin-right: -17.6rem;
+				display: none;
 
 				&:hover {
 					filter: grayscale(90%) contrast(0.8) brightness(90%) opacity(0.1);
-					margin-right: -19.6rem;
+					margin-right: -17.6rem;
 					transition: none;
 				}
 			}
@@ -245,6 +247,7 @@
 				background-color: rgba(10, 25, 47, 0.95);
 				padding: 2rem;
 				border-radius: 1.5625rem;
+				text-align: end;
 			}
 		}
 
@@ -308,7 +311,7 @@
 		&__links--rev {
 			display: flex;
 			justify-content: flex-start;
-			gap: 36%;
+			gap: 19%;
 		}
 	}
 }
@@ -341,6 +344,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: flex-end;
+				text-align: end;
 			}
 		}
 
