@@ -3,7 +3,7 @@ import React from "react";
 import "./Contact.scss";
 
 import email from "../../assets/icons/email.svg";
-import linkedin from "../../assets/icons/linkedin.svg";
+// import linkedin from "../../assets/icons/linkedin.svg";
 
 const Contact = () => {
 	return (
@@ -31,7 +31,7 @@ const Contact = () => {
 									<p className="connect-btn--text">Shoot Me An Email</p>
 								</a>
 							</div>
-							<div className="connect__linked">
+							{/* <div className="connect__linked">
 								<img src={linkedin} alt="linkedin" className="connect__icon" />
 								<p className="connect__text">Olanrewaju Akinola</p>
 								<a
@@ -42,7 +42,7 @@ const Contact = () => {
 								>
 									<p className="connect-btn--text">Shoot Me A Message</p>
 								</a>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
