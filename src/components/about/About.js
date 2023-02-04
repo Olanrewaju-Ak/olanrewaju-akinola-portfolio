@@ -16,17 +16,20 @@ const About = () => {
 							<span className="transcript">/o-lan-raey-wah-ju/</span>, you can call me
 							Lanre <span className="transcript">/lan-raey/</span>. I am a
 							<span className="highlight"> Full-stack Developer</span> with a
-							background in architecture and design. I love designing and creating
-							things. My passion for human centered designs and using technology to
-							provide creative solutions, led me into web development and I'm keen on
+							background in architecture and design.
+						</p>
+						<br />
+						<p className="paragraph">
+							I love designing and turning ideas into creative and tangible products.
+							My passion for human centered designs and using technology to provide
+							creative solutions, led me into web development and I'm keen on
 							gathering knowledge and experience every step of the way.
 						</p>
 						<br />
 						<p className="paragraph">
-							In my free time, you can catch me watching movies, listening to music
-							and podcasts, or following sports. I also love arts, hiking and taking
-							photographs (albeit just casually). It is always lovely to enjoy nature
-							with friends.
+							In my free time, you can catch me watching movies, sports, listening to
+							music and podcasts. I also enjoy arts, hiking, taking photographs
+							(albeit just casually), and spending time with family and friends.
 						</p>
 					</div>
 					<div className="about__profile-image"></div>
