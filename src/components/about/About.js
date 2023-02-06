@@ -22,8 +22,9 @@ const About = () => {
 						<p className="paragraph">
 							I love designing and turning ideas into creative and tangible products.
 							My passion for human centered designs and using technology to provide
-							creative solutions, led me into web development and I'm keen on
-							gathering knowledge and experience every step of the way.
+							creative solutions that will make positive impacts in the world, led me
+							into web development and I'm keen on gathering knowledge and experience
+							every step of the way.
 						</p>
 						<br />
 						<p className="paragraph">
