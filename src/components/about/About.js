@@ -29,8 +29,8 @@ const About = () => {
 						<br />
 						<p className="paragraph">
 							In my free time, you can catch me watching movies, sports, listening to
-							music and podcasts. I also enjoy arts, hiking, taking photographs
-							(albeit just casually), and spending time with family and friends.
+							music and podcasts. I also enjoy arts, hiking, taking photographs and
+							spending time with family and friends.
 						</p>
 					</div>
 					<div className="about__profile-image"></div>

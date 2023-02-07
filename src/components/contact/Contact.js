@@ -17,8 +17,7 @@ const Contact = () => {
 						<p className="connect__message">
 							I am currently seeking a role as a Junior Software Developer. If you
 							have an opening that you think would be a good fit for my skills and
-							experience, please don't hesitate to get in touch. Thank you for
-							considering me for any available positions.
+							experience, please don't hesitate to get in touch. Thank you.
 						</p>
 						<div className="connect__inbox">
 							<div className="connect__email">
