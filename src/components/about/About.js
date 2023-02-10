@@ -21,16 +21,16 @@ const About = () => {
 						<br />
 						<p className="paragraph">
 							I love designing and turning ideas into creative and tangible products.
-							My passion for human centered designs and using technology to provide
-							creative solutions that will make positive impacts in the world, led me
-							into web development and I'm keen on gathering knowledge and experience
-							every step of the way.
+							My passion for user-centered designs and using technology to provide
+							creative solutions that will positively impact the world, led me into
+							web development. I'm keen on gathering knowledge and experience every
+							step of the way.
 						</p>
 						<br />
 						<p className="paragraph">
 							In my free time, you can catch me watching movies, sports, listening to
-							music and podcasts. I also enjoy arts, hiking, taking photographs and
-							spending time with family and friends.
+							music and podcasts. I also enjoy viewing arts, hiking, taking
+							photographs and spending time with family and friends.
 						</p>
 					</div>
 					<div className="about__profile-image"></div>
