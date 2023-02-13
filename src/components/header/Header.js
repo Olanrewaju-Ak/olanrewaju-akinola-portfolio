@@ -50,7 +50,7 @@ const Header = () => {
 					<li className="navbar__list-item" onClick={isMobile ? handleClick : undefined}>
 						<div />
 						<a
-							href="https://drive.google.com/file/d/13jgQSkT7D_sACBvMNi0O4kcKfnXkZmFK/view?usp=share_link"
+							href="https://drive.google.com/file/d/1i9WSHLYxbXdCwdrQls4h62PN2SiNWmjW/view?usp=share_link"
 							target="_blank"
 							rel="noreferrer"
 							className={
